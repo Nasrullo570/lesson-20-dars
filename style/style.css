@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 30px;
+  line-height: 60px;
+  height: 63px;
+  border-bottom: 3px solid #dc392d !important;
+}
+
+header .top .left a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgba(33, 40, 50, 0.5) !important;
+  padding: 7px 11px;
+  border-radius: 4px;
+}
+
+header .top .left a:hover {
+  background: #e2e2e2;
+}
+
+header .top .centr i {
+  padding: 0 10px;
+  border-radius: 50%;
+  font-size: 14px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+header .top .centr i:hover {
+  background: #e2e2e2;
+}
+
+header .top .right .clas1 {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+header .top .right .clas1:hover {
+  background-color: #e2e2e2;
+}
+
+header .top .right span {
+  background-color: #f0e3e7;
+  color: #dc392d;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+header .top .right .clas {
+  border-radius: 50%;
+  font-size: 14px;
+  color: #948f8f;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+header .top .right .clas:hover {
+  background: #e2e2e2;
+}
+
+.divs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.divs .lefts {
+  background: blue;
+  height: 1700px;
+  width: 250px;
+}
+
+.divs .lefts .eee {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.divs .lefts ul li {
+  margin-left: 20px;
+}
+
+.divs .lefts ul li span {
+  color: #fff;
+}
+
+.divs .lefts .fff {
+  margin-left: 21px;
+  color: #dadada;
+}
+
+.divs .rights {
+  width: 100%;
+}
+
+.divs .rights nav {
+  width: 100%;
+}
+
+.divs .rights nav .in {
+  width: 300px;
+  margin-left: 18px;
+}
+
+.divs .rights nav .grid ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.divs .rights nav .grid ul li {
+  list-style: none;
+}
+
+.divs .rights nav .grid ul li i {
+  opacity: .4;
+  cursor: pointer;
+  padding: 0 14px;
+}
+
+.divs .rights nav .grid ul li i:hover {
+  opacity: .6;
+}
+
+.divs .rights nav .grid ul li img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.divs .rights nav .grid ul li span {
+  color: #858796 !important;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.divs .box {
+  padding: 0 24px;
+  background: #f7f7f7;
+}
+
+.divs .box .box-top {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.divs .box .box-top h1 {
+  color: #5a5c69 !important;
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.divs .box .box-top i {
+  opacity: .6;
+}
+
+.divs .box .row {
+  margin-top: 20px;
+}
+
+.divs .box .row .lot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 20%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.divs .box .row .lot:first-child {
+  border-left: 0.25rem solid #4e73df !important;
+}
+
+.divs .box .row .lot:nth-child(2) {
+  border-left: 0.25rem solid #1cc88a !important;
+}
+
+.divs .box .row .lot:nth-child(3) {
+  border-left: 0.25rem solid #36b9cc !important;
+}
+
+.divs .box .row .lot:nth-child(4) {
+  border-left: 0.25rem solid #f6c23e !important;
+}
+
+.divs .box .row .lot .oxen {
+  margin: 20px;
+}
+
+.divs .box .row .lot .oxen span {
+  color: #4e73df;
+  font-size: 10px;
+  font-weight: 700;
+  display: block;
+}
+
+.divs .box .row .lot .oxen div {
+  color: #5a5c69;
+  font-size: 20px;
+}
+
+.divs .box .row .lot .oxn {
+  opacity: .5;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.divs .oq {
+  opacity: .5;
+}
+
+.lll {
+  height: 5000px;
+}
+/*# sourceMappingURL=style.css.map */
